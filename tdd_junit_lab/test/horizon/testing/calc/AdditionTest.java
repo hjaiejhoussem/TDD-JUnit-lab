@@ -22,6 +22,11 @@ class AdditionTest {
 	//Case 2
 	//When adding 2 positive integers
 	//Then display the accurate result of the addition of the 2 inputs
+	@Test
+	void testAddTwoIntegers() {
+		Addition op =  new Addition();
+		Assert.assertEquals(2, op.add(1, 1));
+	}
 	
 	
 	//Case 3
